@@ -1,0 +1,404 @@
+.layout {
+  width: 100%;
+}
+.header {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.header .container .row > div {
+  height: 40px;
+  border-right: 1px solid #ccc;
+  text-align: center;
+  line-height: 40px;
+}
+.header .container .row > div .header_tell {
+  width: 100%;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  position: relative;
+}
+.header .container .row > div .header_tell i {
+  font-style: normal;
+}
+.header .container .row > div .header_tell span {
+  font-size: 12px;
+  color: #666;
+}
+.header .container .row > div .header_tell img {
+  width: 120px;
+  margin-left: -60px;
+  border: 1px solid #ccc;
+  border-top: 0;
+  position: absolute;
+  top: 39px;
+  left: 50%;
+  z-index: 1000;
+  display: none;
+}
+.header .container .row > div .header_tell:hover img {
+  display: block;
+}
+.header .container .row > div .header_call {
+  color: #666;
+  text-decoration: none;
+}
+.header .container .row > div .link {
+  color: #666;
+  text-decoration: none;
+  font-size: 13px;
+}
+.header .container .row > div .register:hover {
+  background-color: red;
+  border: 1px solid red;
+}
+.header .container .row > div .login {
+  text-decoration: none;
+  color: #333;
+}
+.header .container .row div:last-child {
+  border-right: 0;
+}
+.nav {
+  width: 100%;
+  background-color: #fff;
+  border: 0;
+  margin-bottom: 0;
+}
+.nav .container .navbar-header button {
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+.nav .container .navbar-header a.navbar-brand {
+  height: 80px;
+  line-height: 50px;
+}
+.nav .container .navbar-header a.navbar-brand span {
+  vertical-align: middle;
+}
+.nav .container .navbar-header a.navbar-brand .icon_logo {
+  color: red;
+  font-size: 50px;
+}
+.nav .container .navbar-header a.navbar-brand .icon_word {
+  font-size: 30px;
+}
+.nav .container .collapse ul li a {
+  height: 80px;
+  line-height: 50px;
+  outline: none;
+  background-color: #fff;
+}
+.nav .container .collapse ul li a:hover,
+.nav .container .collapse ul li a:focus {
+  height: 80px;
+  line-height: 50px;
+  background-color: #fff;
+  border-bottom: 3px solid red;
+}
+.nav .container .collapse ul li.active a {
+  height: 80px;
+  line-height: 50px;
+  outline: none;
+  background-color: #fff;
+  border-bottom: 3px solid red;
+}
+.nav .container .collapse ul li.active a:hover,
+.nav .container .collapse ul li.active a:focus {
+  background-color: #fff;
+  border-bottom: 3px solid red;
+}
+.banner {
+  width: 100%;
+}
+.banner .carousel-inner .item .pc_img {
+  height: 410px;
+  width: 100%;
+  display: block;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner .carousel-inner .item .mb_img {
+  display: block;
+  width: 100%;
+  font-size: 0;
+}
+.banner .carousel-inner .item .mb_img img {
+  width: 100%;
+}
+.product {
+  padding: 50px;
+}
+.product .row div > a {
+  text-decoration: none;
+  padding: 30px 0;
+}
+.product .row div > a .media {
+  color: #666;
+  list-style: none;
+  margin-top: 10px;
+}
+.product .row div > a .media span {
+  font-size: 30px;
+}
+.product .row div > a .media:hover {
+  color: red;
+}
+.book .container .left .icon {
+  font-size: 16px;
+}
+.book .container .left a {
+  color: red;
+  text-decoration: none;
+  border-bottom: 1px dashed red;
+}
+.book .container .right a {
+  color: #333;
+}
+.act {
+  width: 100%;
+  padding: 50px 0;
+  background-color: #f0f0f0;
+}
+.act .container .act_tab .nav-tabs li a,
+.act .container .act_tab .nav-tabs li a:hover,
+.act .container .act_tab .nav-tabs li a:focus {
+  color: #333;
+  border: 0;
+  background-color: transparent;
+  border-bottom: 3px solid transparent;
+}
+.act .container .act_tab .nav-tabs li.active a,
+.act .container .act_tab .nav-tabs li.active a:hover,
+.act .container .act_tab .nav-tabs li.active a:focus {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 3px solid red;
+}
+.act .container .act_content {
+  margin-top: 20px;
+}
+.act .container .act_content > div .container .row > div a.box {
+  display: block;
+  width: 100%;
+  min-height: 150px;
+  background-color: #fff;
+  color: #333;
+  box-shadow: 0 0 2px #ccc;
+  /* 阴影属性  1.水平偏移  2.垂直偏移  3. 模糊度  4.阴影颜色*/
+  text-decoration: none;
+}
+.act .container .act_content > div .container .row > div a.box .l {
+  overflow: hidden;
+  min-height: 150px;
+}
+.act .container .act_content > div .container .row > div a.box .l h3 {
+  font-weight: normal;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.act .container .act_content > div .container .row > div a.box .l p {
+  margin: 0;
+  overflow: hidden;
+}
+.act .container .act_content > div .container .row > div a.box .l > div p {
+  line-height: 20px;
+  height: 20px;
+  font-size: 13px;
+  color: #666;
+}
+.act .container .act_content > div .container .row > div a.box .l > div .progress {
+  height: 10px;
+}
+.act .container .act_content > div .container .row > div a.box .r {
+  width: 108px;
+  min-height: 150px;
+  float: right;
+  position: relative;
+  border-left: 1px dashed #ccc;
+}
+.act .container .act_content > div .container .row > div a.box .r .txt {
+  margin-top: 20px;
+  text-align: center;
+}
+.act .container .act_content > div .container .row > div a.box .r .txt span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 15px;
+}
+.act .container .act_content > div .container .row > div a.box .r .txt .txt_zhou {
+  color: red;
+  border: 1px solid red;
+}
+.act .container .act_content > div .container .row > div a.box .r .txt .txt_jin {
+  color: green;
+  border: 1px solid green;
+}
+.act .container .act_content > div .container .row > div a.box .r .persent {
+  text-align: center;
+}
+.act .container .act_content > div .container .row > div a.box .r .persent span {
+  font-size: 50px;
+  color: red;
+  font-weight: bold;
+}
+.act .container .act_content > div .container .row > div a.box .r .persent sub {
+  font-size: 12px;
+}
+.act .container .act_content > div .container .row > div a.box .r .num {
+  text-align: center;
+}
+.act .container .act_content > div .container .row > div a.box .r::before,
+.act .container .act_content > div .container .row > div a.box .r::after {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  position: absolute;
+  left: -6px;
+}
+.act .container .act_content > div .container .row > div a.box .r::before {
+  top: -6px;
+  box-shadow: 0 -1px 1px #ccc inset;
+}
+.act .container .act_content > div .container .row > div a.box .r::after {
+  bottom: -6px;
+  box-shadow: 0 1px 1px #ccc inset;
+}
+.act .container .act_content > div .container .row > div a.box.active {
+  background-color: red;
+  color: white;
+  position: relative;
+}
+.act .container .act_content > div .container .row > div a.box.active .icon {
+  position: absolute;
+  top: -9px;
+  left: 0;
+  font-size: 40px;
+}
+.act .container .act_content > div .container .row > div a.box.active .r {
+  border-left: 1px dashed #fff;
+}
+.act .container .act_content > div .container .row > div a.box.active .r .persent {
+  margin-top: 35px;
+}
+.act .container .act_content > div .container .row > div a.box.active .r .persent span {
+  color: white;
+}
+.act .container .act_content > div .container .row > div a.box.active .r .persent sub {
+  color: white;
+}
+.act .container .act_content > div .container .row > div a.box.active > div p {
+  line-height: 20px;
+  height: 20px;
+  font-size: 13px;
+  color: #fff;
+}
+.news {
+  width: 100%;
+  padding: 30px 0;
+}
+.news .container .row > div .box h3 {
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: normal;
+  border-bottom: 1px solid #333;
+  position: relative;
+}
+.news .container .row > div .box h3::after {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  border: 1px solid #333;
+  border-radius: 50%;
+  position: absolute;
+  right: -6px;
+  bottom: -3px;
+}
+.news .container .row > div .tab-content ul {
+  list-style: none;
+}
+.news .container .row > div .tab-content ul a {
+  display: block;
+  color: #666;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+.news .container .row > div .tab-content ul a span {
+  color: #333;
+}
+.news .container .row .nav-tabs {
+  border-bottom: 0;
+}
+.news .container .row .nav-tabs li a {
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  line-height: 40px;
+  margin-top: 30px;
+  color: #fff;
+  background: #ccc;
+  border-radius: 50%;
+}
+.news .container .row .nav-tabs li a:hover,
+.news .container .row .nav-tabs li a:focus {
+  background: red;
+  color: #fff;
+  border-radius: 50%;
+  border: 1px solid transparent;
+}
+.news .container .row .nav-tabs li.active a,
+.news .container .row .nav-tabs li.active a:hover,
+.news .container .row .nav-tabs li.active a:focus {
+  border: 1px solid transparent;
+  background: red;
+  border-radius: 50;
+  color: #fff;
+}
+.news .container .pos_line {
+  position: relative;
+}
+.news .container .pos_line .line {
+  width: 1px;
+  height: 330px;
+  border-right: 1px dashed #ccc;
+  position: absolute;
+  left: 45px;
+  top: 30px;
+}
+.friend {
+  width: 100%;
+  padding: 50px 0;
+  background: #f0f0f0;
+}
+.friend .container h3 {
+  text-align: center;
+}
+.friend .container ul {
+  list-style: none;
+  text-align: center;
+}
+.friend .container ul li {
+  display: inline-block;
+  margin: 10px 10px;
+}
+.friend .container ul li a {
+  color: #333;
+  text-decoration: none;
+}
+.friend .container ul li a span {
+  font-size: 60px;
+}
+.friend .container ul a:hover {
+  color: red;
+}
